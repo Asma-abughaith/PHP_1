@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Registration Form</title>
+</head> 
+<body>
+    <header>
+        <h1>Student Registration Form</h1>  
+    </header>
+    <div>
+        <lable for ="name">Your Name: </lable>
+        <input type = "text" id = "name">
+    </div> 
+    <br>
+    <div>
+        <lable for ="birthday"> Date Of Birth:</lable>
+        <input type = "date" id = "birthday">
+    </div> 
+    <br>
+    <div>
+        <lable for ="weight"> Weight:</lable>
+        <input type = "Number" id = "weight" min = "10">
+    </div> 
+    <div>
+        <h4>Gender</h4>
+        <div>
+            <lable for ="female"> Female</lable>
+            <input type = "radio" id = "female" name = "gender" vlaue = "female">
+        </div>
+        <div>
+            <lable for ="male"> male</lable>
+            <input type = "radio" id = "male" name = "gender" vlaue = "male">
+        </div>
+    </div>
+    <br>
+    <div>
+        <lable for ="email"> E-mail:</lable>
+        <input type = "email" id = "email" placeholder="example@gmail.com">
+    </div> 
+    <br>
+    <div>
+        <lable for ="phone"> Phone:</lable>
+        <input type = "tel" id = "phone" name = "phone">
+    </div> 
+    <br>
+    <div>
+        <lable for ="address"> address:</lable>
+        <select  id = "address" name = "address">
+            <option value = "">-- choose your current address--</option>
+            <option value = "Amman">Amman</option>
+            <option value = "Salt">Salt</option>
+            <option value = "Karak">Karak</option>
+            <option value = "Irbid">Irbid</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <lable for ="color"> Choose Your favorite color:</lable>
+        <input type = "color" id = "color" name = "color" value="#ffff">
+    </div> 
+    <br>
+    <div>
+        <lable for ="cv"> attach your CV:</lable>
+        <input type = "file" id ="cv" name = "cv" value="cv">
+    </div>
+    <br>
+    <div>
+        <lable for ="contact"> can we contact you through email:</lable>
+        <input type = "checkbox" id = "contact" name = "contact" value="cv">
+    </div>
+    <br>
+    <input type="submit" value="Send Request" /> 
+    <br>
+    <hr>
+    <br>
+    <table >
+        <thead>
+        <tr>
+          <th>Name&nbsp;&nbsp;</th>
+          <th>Date Of Birth&nbsp;&nbsp;</th>
+          <th>weight&nbsp;&nbsp;</th>
+          <th>gender&nbsp;&nbsp;</th>
+          <th>email&nbsp;&nbsp;</th>
+          <th>phone number&nbsp;&nbsp;</th>
+          <th>address&nbsp;&nbsp;</th>
+          <th>favorite color&nbsp;&nbsp;</th>
+          <th>CV&nbsp;&nbsp;</th>
+          <th>contact by email&nbsp;&nbsp;</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>Samar&nbsp;</td>
+          <td>23-07-1991&nbsp;</td>
+          <td>50&nbsp;</td>
+          <td>Female&nbsp;</td>
+          <td>samar@gmail.com&nbsp;</td>
+          <td>+96288557742&nbsp;</td>
+          <td>Amman&nbsp;</td>
+          <td>Black&nbsp;</td>
+          <td>attached file&nbsp;</td>
+          <td>yes&nbsp;</td>
+          
+        </tr>
+        <tr>
+            <td>Mohammad&nbsp;</td>
+            <td>27-11-1991&nbsp;</td>
+            <td>70&nbsp;</td>
+            <td>Male&nbsp;</td>
+            <td>mohammad@gmail.com&nbsp;</td>
+            <td>00962795802153&nbsp;</td>
+            <td>Amman&nbsp;</td>
+            <td>Blue&nbsp;</td>
+            <td>attached file&nbsp;</td>
+            <td>yes&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Wessam</td>
+            <td>25-1-1993</td>
+            <td>50</td>
+            <td>Female</td>
+            <td>wessam@gmail.com</td>
+            <td>0795824153</td>
+            <td>Amman</td>
+            <td>Green</td>
+            <td>attached file</td>
+            <td>yes</td>
+        </tr>
+    </tbody>
+      </table>                  
+
+</body>
+</html>
